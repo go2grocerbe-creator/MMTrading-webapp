@@ -1,0 +1,3 @@
+import Link from "next/link";
+export const metadata = { title: "Contact" };
+export default function ContactPage() { return <div className="container page-shell narrow"><span className="eyebrow blue">Contact</span><h1>Contact details pending approval.</h1><p className="page-intro">Public address, phone, email, business hours and map location have not yet been approved for publication.</p><div className="notice"><strong>Product enquiry?</strong><p>You can still prepare a quotation request locally. It will not be delivered until the owner configures an approved submission destination.</p></div><Link className="button button-primary" href="/quote">Prepare quote request</Link></div>; }

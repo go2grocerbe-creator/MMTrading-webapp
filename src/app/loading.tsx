@@ -1,0 +1,1 @@
+export default function Loading() { return <div className="container page-shell" aria-label="Loading"><div className="skeleton title" /><div className="skeleton intro" /><div className="skeleton-grid">{[1,2,3].map((item) => <div className="skeleton card" key={item} />)}</div></div>; }

@@ -1,0 +1,3 @@
+import Link from "next/link";
+import { site } from "@/data/site";
+export function Footer() { return <footer className="footer"><div className="container footer-grid"><div><strong className="footer-brand">{site.name}</strong><p>{site.description}</p></div><div><span className="footer-label">Products</span><Link href="/products">Product range</Link><Link href="/quote">Wholesale enquiry</Link></div><div><span className="footer-label">Contact</span><span>{site.legalName}</span><span>Contact details pending approval</span></div></div><div className="container copyright">© {new Date().getFullYear()} MM Brand</div></footer>; }

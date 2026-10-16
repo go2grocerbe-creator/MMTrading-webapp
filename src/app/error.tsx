@@ -1,0 +1,2 @@
+"use client";
+export default function ErrorPage({ reset }: { reset: () => void }) { return <div className="container page-shell narrow"><span className="eyebrow red">Something went wrong</span><h1>This page could not be loaded.</h1><p className="page-intro">Try loading it again. Your quote selection remains on this device.</p><button className="button button-primary" onClick={reset}>Try again</button></div>; }

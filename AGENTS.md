@@ -39,3 +39,13 @@ Prefer small commits with descriptive messages. Keep the default branch stable; 
 3. Build the reusable design foundation, header/footer, homepage responsive layout, and typed six-product dataset.
 4. Run and visually inspect the app at desktop and mobile breakpoints.
 5. Commit and report evidence. Then proceed with product detail and quotation implementation only after the first milestone passes.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+## This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->
